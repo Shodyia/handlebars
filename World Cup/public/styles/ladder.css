@@ -1,0 +1,122 @@
+.main{
+    background-color: rgb(30, 28, 28);
+    display: flex;
+}
+
+.matches8{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    padding: 50px;
+    
+}
+.matches4{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    padding: 30px;
+}
+.matches2{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    padding: 30px;
+}.final{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    padding: 30px;
+}
+#Match-1{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: rgb(30, 28, 28);
+    height: 150px;
+    width: 250px;
+    border-radius: 9%;
+    border: solid lightgrey 0.5px;
+    color: white;
+}
+#Match-2{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: rgb(30, 28, 28);
+    height: 150px;
+    width: 250px;
+    border-radius: 9%;
+    border: solid lightgrey 0.5px;
+    color: white;
+    
+}
+#Match-3{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: rgb(30, 28, 28);
+    height: 150px;
+    width: 250px;
+    border-radius: 9%;
+    border: solid lightgrey 0.5px;
+    color: white;
+
+    
+}
+#Match-4{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: rgb(30, 28, 28);
+    height: 150px;
+    width: 250px;
+    border-radius: 9%;
+    border: solid lightgrey 0.5px;
+    color: white;
+    margin-bottom: 650px;
+
+}
+.photo{
+    height: auto;
+    width: auto;
+    opacity: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 0.2px white;
+  }
+  td {
+    padding: 15px;
+    height: 10px;  
+    text-align: center;
+    color:white;
+    
+  }
+  table {
+    margin-top: 10px;
+    border-spacing: 1rem;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  /* menu */
+.inf {
+    position: relative;   
+    float:left;
+    width:100%;
+    background-color: rgb(30, 28, 28);
+}
+.inf div{
+    margin-top: 30px;
+    float: left;
+    left: 0;
+    text-align: center;
+    width:25%;
+    height: 50%;
+    background-color: rgb(30, 28, 28);
+    display:inline-block;
+    color: white;
+  }

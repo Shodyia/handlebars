@@ -1,0 +1,47 @@
+.menu {
+    background: white;
+}
+.menu ul {
+margin-left: 0;
+list-style: none;
+text-align: center;
+
+}
+.menu ul li {
+display: inline-block;
+
+}
+.menu ul li a {
+display: block;
+padding: 15px;
+color: maroon;
+text-decoration: none;
+}
+.menu ul li a:hover {
+background: maroon;
+color: #FFF;
+}
+.main1{
+    margin-left: 70px;
+}
+.TeamPhoto{
+    height: 50%;
+  width: 50%;
+  opacity: 1;
+  display: block;
+  margin-left: auto;
+margin-right: auto;
+  text-align: center;
+  border: solid 0.4px rgb(30, 28, 28);;
+}
+.TeamsFlags{
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+.ShcDiv{
+    margin: 20px;
+    font-weight: 500;
+}

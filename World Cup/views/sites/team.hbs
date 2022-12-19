@@ -1,0 +1,32 @@
+<head>
+    <link rel="stylesheet" href="/styles/team.css">
+</head>
+<div class="header">
+    <img src="https://e0.365dm.com/22/10/2048x1152/skysports-world-cup-qatar-2022_5921764.jpg">
+<h1 id="text">WorldCup 2022</h1>
+</div>
+<hr>
+    <div class="menu">
+    <ul>
+    <li><a href="/home" >Main Page</a></li>
+    <li><a href="/groups">Groups</a></li>
+    <li><a href="/ladder">Ladder</a></li>
+    <li><a href="/teams">Teams</a></li>
+    </ul>
+</div>
+<hr>
+<div id="main-container">
+    <p id="title-main-container">{{chosenTeam.name}}</p>
+<img src="{{chosenTeam.src}}" class="SQphoto">
+
+<h2 id="top-padding">Goalkeepers:</h2>
+<p>{{chosenTeam.GK}}</p>
+<h2>Defenders:</h2>
+<p>{{chosenTeam.DF}}</p>
+<h2>Midfilder:</h2>
+<p>{{chosenTeam.MF}}</p>
+<h2>Forward:</h2>
+<p>{{chosenTeam.FW}}</p>
+</div>
+</table>
+<script src="/scripts/team.js"></script>

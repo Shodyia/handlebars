@@ -1,0 +1,331 @@
+<head>
+    <link rel="stylesheet" href="/styles/groups.css">
+</head>
+<div class="header">
+    <img src="https://e0.365dm.com/22/10/2048x1152/skysports-world-cup-qatar-2022_5921764.jpg">
+<h1 id="text">WorldCup 2022</h1>
+</div>
+<hr>
+    <div class="menu">
+    <ul>
+    <li><a href="/home" >Main Page</a></li>
+    <li><a href="/groups">Groups</a></li>
+    <li><a href="/ladder">Ladder</a></li>
+    <li><a href="/teams">Teams</a></li>
+    </ul>
+</div>
+<hr>
+
+<div id="GroupMenu">
+            <button id="A" class='button'>GroupA</button>
+            <button id="B" class='button'>GroupB</button>
+            <button id="C" class='button'>GroupC</button>
+            <button id="D" class='button'>GroupD</button>
+            <button id="E" class='button'>GroupE</button>
+            <button id="F" class='button'>GroupF</button>
+            <button id="G" class='button'>GroupG</button>
+            <button id="H" class='button'>GroupH</button>
+    </div>
+<div class="main">
+    <div  id="GroupA" class="group">
+    <table>
+         <h1>GroupA</h1>
+         <thead>
+        <tr id="scores">
+            <th>Place</th>
+            <th colspan="2">Team</th>
+            <th>W</th>
+            <th>R</th>
+            <th>P</th>
+            <th>BZ</th>
+            <th>BS</th>
+            <th>RB</th>
+            <th>Pkt</th>
+            
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="teams">
+            {{#each GroupA}}
+            <tr>
+            <td>{{this.place}}</td>
+            <td><img src="{{this.src}}" class="photo"></td>
+            <td>{{this.name}}</td>
+            <td>{{this.W}}</td>
+            <td>{{this.R}}</td>
+            <td>{{this.P}}</td>
+            <td>{{this.BZ}}</td>
+            <td>{{this.BS}}</td>
+            <td>{{this.RB}}</td>
+            <td>{{this.Pkt}}</td>
+            </tr>
+            {{/each}}
+            
+        </tr>
+        </tbody>
+    </table>
+    
+</div>
+
+<div id="GroupB" class="group">
+
+    <table>
+        <h1>GroupB</h1>
+        <thead>
+        <tr id="scores">
+            <th>Place</th>
+            <th colspan="2">Team</th>
+            <th>W</th>
+            <th>R</th>
+            <th>P</th>
+            <th>BZ</th>
+            <th>BS</th>
+            <th>RB</th>
+            <th>Pkt</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="teams">
+            {{#each GroupB}}
+            <tr>
+            <td>{{this.place}}</td>
+            <td><img src="{{this.src}}" class="photo"></td>
+            <td>{{this.name}} </td>
+            <td>{{this.W}} </td>
+            <td>{{this.R}} </td>
+            <td>{{this.P}} </td>
+            <td>{{this.BZ}} </td>
+            <td>{{this.BS}} </td>
+            <td>{{this.RB}} </td>
+            <td>{{this.Pkt}} </td>
+            </tr>
+            {{/each}}
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div id="GroupC" class="group">
+
+    <table>
+        <h1>GroupC</h1>
+        <thead>
+        <tr id="scores">
+            <th>Place</th>
+            <th colspan="2">Team</th>
+            <th>W</th>
+            <th>R</th>
+            <th>P</th>
+            <th>BZ</th>
+            <th>BS</th>
+            <th>RB</th>
+            <th>Pkt</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="teams">
+            {{#each GroupC}}
+            <tr>
+                <td>{{this.place}}</td>
+            <td><img src="{{this.src}}" class="photo"></td>
+            <td>{{this.name}} </td>
+            <td>{{this.W}} </td>
+            <td>{{this.R}} </td>
+            <td>{{this.P}} </td>
+            <td>{{this.BZ}} </td>
+            <td>{{this.BS}} </td>
+            <td>{{this.RB}} </td>
+            <td>{{this.Pkt}} </td>
+            </tr>
+             {{/each}}
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div id="GroupD" class="group">
+
+    <table>
+        <h1>GroupD</h1>
+        <thead>
+        <tr id="scores">
+            <th>Place</th>
+            <th colspan="2">Team</th>
+            <th>W</th>
+            <th>R</th>
+            <th>P</th>
+            <th>BZ</th>
+            <th>BS</th>
+            <th>RB</th>
+            <th>Pkt</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="teams">
+            {{#each GroupD}}
+            <tr>
+                <td>{{this.place}}</td>
+            <td><img src="{{this.src}}" class="photo"></td>
+            <td>{{this.name}} </td>
+            <td>{{this.W}} </td>
+            <td>{{this.R}} </td>
+            <td>{{this.P}} </td>
+            <td>{{this.BZ}} </td>
+            <td>{{this.BS}} </td>
+            <td>{{this.RB}} </td>
+            <td>{{this.Pkt}} </td>
+            </tr>
+             {{/each}}
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div id="GroupE" class="group">
+
+    <table>
+        <h1>GroupE</h1>
+        <thead>
+        <tr id="scores">
+            <th>Place</th>
+            <th colspan="2">Team</th>
+            <th>W</th>
+            <th>R</th>
+            <th>P</th>
+            <th>BZ</th>
+            <th>BS</th>
+            <th>RB</th>
+            <th>Pkt</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="teams">
+            {{#each GroupE}}
+            <tr>
+                <td>{{this.place}}</td>
+            <td><img src="{{this.src}}" class="photo"></td>
+            <td>{{this.name}} </td>
+            <td>{{this.W}} </td>
+            <td>{{this.R}} </td>
+            <td>{{this.P}} </td>
+            <td>{{this.BZ}} </td>
+            <td>{{this.BS}} </td>
+            <td>{{this.RB}} </td>
+            <td>{{this.Pkt}} </td>
+            </tr>
+             {{/each}}
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div id="GroupF" class="group">
+
+    <table>
+        <h1>GroupF</h1>
+        <thead>
+        <tr id="scores">
+            <th>Place</th>
+            <th colspan="2">Team</th>
+            <th>W</th>
+            <th>R</th>
+            <th>P</th>
+            <th>BZ</th>
+            <th>BS</th>
+            <th>RB</th>
+            <th>Pkt</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="teams">
+            {{#each GroupF}}
+            <tr>
+                <td>{{this.place}}</td>
+            <td><img src="{{this.src}}" class="photo"></td>
+            <td>{{this.name}} </td>
+            <td>{{this.W}} </td>
+            <td>{{this.R}} </td>
+            <td>{{this.P}} </td>
+            <td>{{this.BZ}} </td>
+            <td>{{this.BS}} </td>
+            <td>{{this.RB}} </td>
+            <td>{{this.Pkt}} </td>
+            </tr>
+             {{/each}}
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div id="GroupG" class="group">
+
+    <table>
+        <h1>GroupG</h1>
+        <thead>
+        <tr id="scores">
+            <th>Place</th>
+            <th colspan="2">Team</th>
+            <th>W</th>
+            <th>R</th>
+            <th>P</th>
+            <th>BZ</th>
+            <th>BS</th>
+            <th>RB</th>
+            <th>Pkt</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="teams">
+            {{#each GroupG}}
+            <tr>
+                <td>{{this.place}}</td>
+            <td><img src="{{this.src}}" class="photo"></td>
+            <td>{{this.name}} </td>
+            <td>{{this.W}} </td>
+            <td>{{this.R}} </td>
+            <td>{{this.P}} </td>
+            <td>{{this.BZ}} </td>
+            <td>{{this.BS}} </td>
+            <td>{{this.RB}} </td>
+            <td>{{this.Pkt}} </td>
+            </tr>
+            {{/each}}
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div id="GroupH" class="group">
+
+    <table>
+        <h1>GroupH</h1>
+        <thead>
+        <tr id="scores">
+            <th>Place</th>
+            <th colspan="2">Team</th>
+            <th>W</th>
+            <th>R</th>
+            <th>P</th>
+            <th>BZ</th>
+            <th>BS</th>
+            <th>RB</th>
+            <th>Pkt</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr id="teams">
+            {{#each GroupH}}
+            <tr>
+                <td>{{this.place}}</td>
+            <td><img src="{{this.src}}" class="photo"></td>
+            <td>{{this.name}} </td>
+            <td>{{this.W}} </td>
+            <td>{{this.R}} </td>
+            <td>{{this.P}} </td>
+            <td>{{this.BZ}} </td>
+            <td>{{this.BS}} </td>
+            <td>{{this.RB}} </td>
+            <td>{{this.Pkt}} </td>
+            </tr>
+            {{/each}}
+        </tr>
+        </tbody>
+    </table>
+    </div>
+</div>
+
+<script src="/scripts/groups.js"></script>

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+#text{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    margin: -25px 0 0 -50px;
+    color: maroon;
+}
+img{
+    display: block;
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.menu {
+    background: white;
+}
+.menu ul {
+margin-left: 0;
+list-style: none;
+text-align: center;
+
+}
+.menu ul li {
+display: inline-block;
+
+}
+.menu ul li a {
+display: block;
+padding: 15px;
+color: maroon;
+text-decoration: none;
+}
+.menu ul li a:hover {
+background: maroon;
+color: #FFF;
+}
+#picture1{
+    height: 500px;
+    width: 100%;
+    opacity: 1;
+}
+
+.About{
+    font-family: Andale Mono, monospace;
+    font-size: 35px;    
+}
+.Wab{
+    font-family: Optima, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: left;
+}
+.text{
+    font-family: Optima, sans-serif;
+    font-size:25px;
+    text-align: left;
+    
+}
+.container{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+.ab{
+    margin-top: 50px;
+    left: 5%;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+.W{
+    height: 100px;
+    width: 500px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.t{
+    display: inline-block;
+    height: 100px;
+    width: 500px;
+    
+}
